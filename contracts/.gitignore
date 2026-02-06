@@ -1,0 +1,16 @@
+# Do not commit .env files!
+.env
+.env.local
+.env.*.local
+
+# Foundry artifacts
+out/
+cache/
+broadcast/
+
+# Dependencies (can be reinstalled)
+lib/
+
+# OS files
+.DS_Store
+Thumbs.db

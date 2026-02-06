@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+lcov.info
+
+# Misc
+*.pem
+.vercel
